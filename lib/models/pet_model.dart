@@ -1,21 +1,21 @@
 class Pet {
-  String? nome;
-  String? imageUrl;
-  String? descricao;
-  String? idade;
-  String? sexo;
-  String? cor;
-  String? bio;
+  late String nome;
+  late String imageUrl;
+  late String descricao;
+  late String idade;
+  late String sexo;
+  late String cor;
+  late String bio;
   late String id;
 
   Pet(
-      {this.nome,
-      this.imageUrl,
-      this.descricao,
-      this.idade,
-      this.sexo,
-      this.cor,
-      this.bio,
+      {required this.nome,
+      required this.imageUrl,
+      required this.descricao,
+      required this.idade,
+      required this.sexo,
+      required this.cor,
+      required this.bio,
       required this.id});
 }
 
